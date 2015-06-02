@@ -28,3 +28,6 @@ Options -Indexes
 
 #Follow symlinks
 Options +FollowSymlinks
+
+AllowOverride All
+AccessFileName .htaccess
