@@ -149,11 +149,15 @@ div#mainmenu { background:none; border:none; height: auto; padding: 0 10px 0 10p
 
 .page-main div#mainmenu {
   margin-bottom: 172px;
+  width: 140%;
 }
 
 div#mainmenu ul {
   background: #fff;
   padding: 12px 0 12px 13px;
+    padding-left: 100px;
+  position: relative;
+  left: -121px;
 }
 div#mainmenu ul li {
   margin:0 8px 0 0;
