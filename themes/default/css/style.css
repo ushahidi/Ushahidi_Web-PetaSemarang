@@ -318,7 +318,7 @@ div#mainmenu a{
     overflow: hidden;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 105%;
 }
 
 div#mainmenu a:hover, div#mainmenu a.active{
