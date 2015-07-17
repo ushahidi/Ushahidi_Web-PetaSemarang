@@ -4,7 +4,7 @@
 	RewriteEngine On
 
 	# Installation directory
-	RewriteBase /
+	RewriteBase /petasemarang
 
 	# Protect application and system files from being viewed
 	RewriteRule ^(application|modules|system|tests|sql) - [F,L]
@@ -28,6 +28,3 @@ Options -Indexes
 
 #Follow symlinks
 Options +FollowSymlinks
-
-AllowOverride All
-AccessFileName .htaccess

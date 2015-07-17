@@ -22,7 +22,7 @@ $(function(){
 
 		<!-- right column -->
 		<div id="report-map-filter-box" class="clearingfix">
-			<a class="btn toggle" id="filter-menu-toggle" class="" href="#the-filters"><?php echo Kohana::lang('ui_main.filter_reports_by'); ?><span class="btn-icon ic-right">&raquo;</span></a>
+		
 
 			<?php
 			if ($layers)
@@ -136,7 +136,6 @@ $(function(){
 
 <!-- content -->
 <div class="content-container">
-
 <!-- report category filters -->
 				<div id="report-category-filter">
 					<h3><?php echo Kohana::lang('ui_main.category');?></h3>
@@ -226,13 +225,13 @@ $(function(){
 				</div>
 				<!-- / report category filters -->
 
-	<!-- content blocks -->
+	<!-- content blocks 
 	<div class="content-blocks clearingfix">
 		<ul class="content-column">
 			<?php blocks::render(); ?>
 		</ul>
 	</div>
-	<!-- /content blocks -->
+	 /content blocks -->
 
 </div>
 <!-- content -->

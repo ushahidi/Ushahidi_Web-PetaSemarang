@@ -53,14 +53,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     font-size: 12px;
-    background: #585858 url(../images/page-bg.jpg) 50% 0 repeat-x;
 }
 
 
 /* wrapper setup */
 div.wrapper, div.rapidxwpr{
     margin: auto;
-    width: 960px;
+    width: 890px;
 }
 
 /* header */
@@ -99,7 +98,6 @@ div#middle{
     width: auto;
     margin: 0px;
     clear: both;
-    background: #FFF;
 }
 
 div#middle .background{
@@ -161,6 +159,9 @@ div#main .withoutright{
 
 div#content{
     width: auto;
+    position: relative;
+    left: -3px;
+  width: 871px;
 }
 
 div#main .withright div#content{
@@ -250,7 +251,7 @@ div.search-form input.text{
     padding: 2px 0px 2px 0px;
     border: #9E9E9E 1px solid;
     margin: 0;
-    background: #EEEEEE;
+    background: #fff;
     width: 160px;
     font-size: 13px;
 }
@@ -292,7 +293,7 @@ div.submit-incident a, div.submit-incident a:hover{
 
 /* mainmenu */
 div#mainmenu{
-    background: #C2C2C2;
+    background: #fff;
     border: #FFF 2px solid;
     padding: 7px 10px;
 }
@@ -313,7 +314,7 @@ div#mainmenu a{
     display: block;
     position: relative;
     padding: 7px 12px;
-    color: #fff;
+    color: #7b399d;
     overflow: hidden;
     text-transform: uppercase;
     font-weight: bold;
@@ -322,7 +323,7 @@ div#mainmenu a{
 
 div#mainmenu a:hover, div#mainmenu a.active{
     text-decoration: none;
-    background: #2E8AB8;
+    background: #fff;
 }
 
 .feedicon {
@@ -387,7 +388,7 @@ a.share{
 div.map {
     border: #999 1px solid;
     width: 573px;
-    height: 480px;
+    height: 536px;
     position:relative;
 }
 /* Change map height when timeline is enabled */
@@ -1736,8 +1737,8 @@ version: 1
 */
 
 /* Reports/Filters Layout */
-#reports-box { float:left; width:600px; }
-#filters-box { float:left; width:280px; margin-left:20px; }
+#reports-box { float:left; width:100%; }
+#filters-box { float:left; width:280px; margin-left:20px;display:none; }
 
 
 /* Report Box Navigation Controls (pagination, view/map toggle...etc) */
