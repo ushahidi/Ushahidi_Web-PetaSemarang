@@ -197,7 +197,7 @@ div#right { position:absolute; z-index:1000; }
   /* home page category filter */
   .page-main #report-category-filter { padding:15px; width:97%; background-color: #fffaf3;margin-top: 30px;margin-bottom: 60px; }
   .page-main ul.category-filters { background:none; border:0; padding:0; }
-  .page-main ul.category-filters li { display:inline-block; list-style-type:none; overflow:auto;width:22%; }
+  .page-main ul.category-filters li { display:inline-block; list-style-type:none; overflow:auto;width:32%; }
     .page-main ul.category-filters li li { clear:left; }
   .page-main ul.category-filters li a { line-height: 32px;
   font-size: 13px;
