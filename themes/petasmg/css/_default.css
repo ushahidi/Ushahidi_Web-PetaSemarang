@@ -199,10 +199,12 @@ div#right { position:absolute; z-index:1000; }
   .page-main ul.category-filters { background:none; border:0; padding:0; }
   .page-main ul.category-filters li { display:block; list-style-type:none; overflow:auto; }
     .page-main ul.category-filters li li { clear:left; }
-  .page-main ul.category-filters li a { font-size:10px; padding:2px 4px 2px 2px; -moz-border-radius: 3px; -webkit-border-radius: 3px; float:left; clear:right; border:0; border:1px transparent solid; }
+  .page-main ul.category-filters li a { line-height: 32px;
+  font-size: 13px;
+  color: #7b399d; padding:7px; -moz-border-radius: 3px; -webkit-border-radius: 3px; float:left; clear:right; border:0; border:1px transparent solid; }
   .page-main .swatch, .page-main .item-swatch { border-color:#f1f1f1; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
   .page-main ul.category-filters li a:hover, 
-  .page-main ul.category-filters li a.active { background:none; border:1px solid #c2c2c2; color:inherit; }
+  .page-main ul.category-filters li a.active { background: #eee; color:inherit; }
   
   /* home page report type filters */
   #report-type-filter { overflow:auto; padding:5px; margin:0; } 
