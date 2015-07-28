@@ -37,14 +37,22 @@ h5, h4 {
 
 /* structural divs */
 
-body.page-main {
-  background: #fff url(../images/main-bg.jpg) no-repeat;
+
+#page {
+  background: #fff url(../images/bg2.jpg) no-repeat;
   background-size: 1248px auto;
   background-position: center top;
 }
 
+body.page-main {
+  background: #fff url(../images/main-bg.jpg) no-repeat !important;
+  background-size: 1248px auto !important;
+  background-position: center top !important;
+}
+
+
 .big-block {   }
-.page-main #main { padding:0px 10px; }
+.page-main #main { padding:0px 10px;    margin-left: 2px; }
 
 /* top-bar */
 #top-bar {
@@ -118,7 +126,7 @@ div#logo {
 }
 
 .page-main  div#logo {
-  height: 268px;
+  height: 160px;
 }
 
 div#logo h1 a {
@@ -137,7 +145,8 @@ div#logo span {
 }
 
 /* submit report button */
-div.submit-incident { margin:0; top:10%; }
+div.submit-incident { margin:0;     top: 9%;
+    right: -67px; }
 div.submit-incident a, .btn_submit {
   text-shadow: 1px 1px 0 #424242;
   -moz-border-radius: 3px;
@@ -148,16 +157,16 @@ div.submit-incident a, .btn_submit {
 div#mainmenu { background:none; border:none; height: auto; padding: 0 10px 0 10px; }
 
 .page-main div#mainmenu {
-  margin-bottom: 172px;
-  width: 140%;
+  margin-bottom: 87px;
+  width: 102%;
 }
 
 div#mainmenu ul {
-  background: #fff;
+  background: #7b399d;
   padding: 12px 0 12px 13px;
-    padding-left: 100px;
+    padding-left: 20px;
   position: relative;
-  left: -121px;
+  left: -20px;
 }
 div#mainmenu ul li {
   margin:0 8px 0 0;
@@ -198,6 +207,7 @@ div#right { position:absolute; z-index:1000; }
   .page-main #report-category-filter { padding:15px; width:97%; background-color: #fffaf3;margin-top: 30px;margin-bottom: 60px; }
   .page-main ul.category-filters { background:none; border:0; padding:0; }
   .page-main ul.category-filters li { display:inline-block; list-style-type:none; overflow:auto;width:32%; }
+  .page-main #kml_switch li { display:inline-block; list-style-type:none; overflow:auto;width:100%; }
     .page-main ul.category-filters li li { clear:left; }
   .page-main ul.category-filters li a { line-height: 32px;
   font-size: 13px;
@@ -269,9 +279,6 @@ div#main { padding:15px 10px; }
 div.report-additional-reports { background:#EEEDEA; position:relative; padding:35px 10px 10px; margin-left:18px; }
 div.report-additional-reports h4 { position:absolute; float:left; top:-18px; left:-18px; padding:5px; border:7px solid #fff; background:#529bf5; color:#fff; }
 div.report-additional-reports h5 { font-family: Arial, sans-serif;  }
-
-/* reports page */
-.report_right { width:450px;}
 
 /* get alerts page */
 .step-1 h2 {
