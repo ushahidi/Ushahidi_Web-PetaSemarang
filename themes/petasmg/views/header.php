@@ -101,7 +101,7 @@
 				<!-- mainmenu -->
 				<div id="mainmenu" class="clearingfix">
 					<ul class="clearingfix">
-						<?php nav::main_tabs($this_page); ?>
+						<?php nav::main_tabs($this_page, ["reports_submit"]); ?>
 					</ul>
 
 				</div>
