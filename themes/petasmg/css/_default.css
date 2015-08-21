@@ -207,6 +207,7 @@ div#right { position:absolute; z-index:1000; }
   .page-main #report-category-filter { padding:15px; width:97%; background-color: #fffaf3;margin-top: 30px;margin-bottom: 60px; }
   .page-main ul.category-filters { background:none; border:0; padding:0; }
   .page-main ul.category-filters li { display:inline-block; list-style-type:none; overflow:auto;width:48%; }
+    .page-main ul.category-filters li ul li { width:90%; }
   .page-main #kml_switch li { display:inline-block; list-style-type:none; overflow:auto;width:100%; }
     .page-main ul.category-filters li li { clear:left; }
   .page-main ul.category-filters li a { line-height: 32px;
@@ -225,7 +226,7 @@ div#right { position:absolute; z-index:1000; }
 
   /* KML layers & Other Deployments */
   /*toggle buttons */
-  #layers-menu-toggle { position:absolute; top:20px; left:220px; width:60px; }
+  #layers-menu-toggle { position:absolute; top:20px;left: 44px; width:60px; }
   #other-deployments-menu-toggle { position:absolute; top:20px; left:322px; width:130px; }
   #how-to-report-menu-toggle { 
     position:absolute; 

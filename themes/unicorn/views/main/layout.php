@@ -89,7 +89,7 @@ $(function(){
 						<?php if (!empty($report_email)) { ?>
 						<div>
 							<strong><?php echo Kohana::lang('ui_main.report_option_2'); ?>:</strong><br/>
-							<a href="mailto:<?php echo $report_email?>"><?php echo $report_email?></a>
+							<a href="mailto:pekakota@gmail.com ">pekakota@gmail.com </a>
 						</div>
 						<?php } ?>
 
