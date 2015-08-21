@@ -249,7 +249,7 @@ div#right { position:absolute; z-index:1000; }
   
   #kml_switch,
   #sharing_switch,
-  #how-to-report-box { display:none; position:absolute; top:49px; padding:5px; left:220px; background:#f9f7f8; width:175px;}
+  #how-to-report-box { display:none; position:absolute; top:49px; padding:5px; left:220px; background:#f9f7f8; width:175px;font-size: 15px;}
   #sharing_switch { left:322px; }
   #how-to-report-box { left:724px; padding-top:10px; }
     #how-to-report-box ol { margin-left:22px; }
