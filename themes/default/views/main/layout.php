@@ -184,7 +184,7 @@
 						<?php if ( ! empty($report_email)): ?>
 						<div>
 							<strong><?php echo Kohana::lang('ui_main.report_option_2'); ?>:</strong><br/>
-							<a href="mailto:petakota@gmail.com ">petakota@gmail.com</a>
+							<a href="mailto:pekakota@gmail.com ">pekakota@gmail.com</a>
 						</div>
 						<?php endif; ?>
 
