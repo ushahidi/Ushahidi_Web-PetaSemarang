@@ -381,7 +381,7 @@ class Input_Core {
 
 				do
 				{
-					 Remove really unwanted tags
+					 // Remove really unwanted tags
 					$old_data = $data;
 					$data = preg_replace('', '', $data);
 				}
