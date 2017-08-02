@@ -8,7 +8,7 @@
 	// Action::header_scripts - Additional Inline Scripts from Plugins
 	Event::run('ushahidi_action.header_scripts');
 	?>
-	// mailchimp script
+	
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/bdf2175b98f049aad59f38bc4/e199c187e71b72fa70a874713.js");</script>
 
 </head>
