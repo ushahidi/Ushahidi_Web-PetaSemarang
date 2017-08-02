@@ -380,11 +380,11 @@ class Input_Core {
 				$data = preg_replace('#</*\w+:\w[^>]*+>#i', '', $data);
 
 				do
-				//{
+				{
 					// Remove really unwanted tags
 					//$old_data = $data;
 					// $data = preg_replace('#</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
-				//}
+				}
 				while ($old_data !== $data);
 			break;
 		}
