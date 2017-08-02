@@ -102,7 +102,6 @@
 				<div id="mainmenu" class="clearingfix">
 					<ul class="clearingfix">
 						<?php nav::main_tabs($this_page, ["reports_submit"]); ?>
-						<li><a href="http://pekakota.or.id">Subscribe</a></li>
 						<li><a href="http://pekakota.or.id">PekaKota Blog</a></li>
 					</ul>
 
