@@ -383,7 +383,7 @@ class Input_Core {
 				{
 					 // Remove really unwanted tags
 					$old_data = $data;
-					$data = preg_replace('', '', $data);
+					$data = preg_replace('#</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
 				}
 				while ($old_data !== $data);
 			break;
