@@ -379,14 +379,14 @@ class Input_Core {
 				// Remove namespaced elements (we do not need them)
 				$data = preg_replace('#</*\w+:\w[^>]*+>#i', '', $data);
 
-				do
+				/**do
 				{
 					 // Remove really unwanted tags
 					$old_data = $data;
-					$data = preg_replace('#</*(?:applet|b(?:ase|gsound)|frame(?:set)?|i(?:layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
+					$data = preg_replace('#</*(?:applet|b(?:ase|gsound|link)|embed|frame(?:set)?|i(?:layer)|l(?:ayer|ink)|meta|object|s(?:cript|tyle)|title|xml)[^>]*+>#i', '', $data);
 				}
 				while ($old_data !== $data);
-			break;
+			break; */
 		}
 
 		return $data;
