@@ -70,6 +70,19 @@ class nav_Core {
 			}
 		}
 		
+		// Alerts2
+		if(! in_array('subs',$dontshow))
+		{
+			if(Kohana::config('settings.allow_alerts'))
+			{
+				$menu_items[] = array( 
+					'page' => 'subs',
+					'url' => url::site('subs'),
+					'name' => 'subs'
+				);
+			}
+		}
+		
 		// Contacts
 		if( ! in_array('contact',$dontshow))
 		{
